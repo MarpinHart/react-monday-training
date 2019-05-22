@@ -12,3 +12,74 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Visually to have a component that is captivating and defined */
+.box {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.boxCol {
+  border: 1px solid black;
+  height: 10rem;
+  width: auto;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.CreditCard{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.Rating {
+  font-size: 2rem;
+}
+
+.ClickablePicture{
+  text-align: center;
+}
+
+.ClickablePicture > img { 
+  height: 20rem;
+  width: auto;
+}
+
+.Dice{
+  text-align: center;
+  margin: 10rem;
+}
+
+.Dice > img {
+  height: 20rem;
+  width: auto;
+}
+
+.NumbersTable > ul > li {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+}
+
+.FaceBook {
+  border: 2px solid black;
+  width: 40rem;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.FaceBook > img {
+  margin-right: 5rem;
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
